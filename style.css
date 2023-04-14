@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+:root{
+	--prime-color: #D0CBCD;
+	--second-color: #A59EA4;
+	--text-color: #2f3136;
+}
+body{
+    background-color: var(--prime-color);
+}
+.top{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 10px;
+}
+.title{
+	font-size: 150px;
+	color: var(--text-color);
+}
+.subTitle{
+	font-size: 58px;
+	font-weight: bold;
+	color: transparent;
+	-webkit-text-stroke: 2px var(--text-color);
+}
+.scroll{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0px 20px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	position: absolute;
+	bottom: 120px;
+	right: -80px;
+}
+.scrText{
+	color: var(--text-color);
+	font-size: 60px;
+}
+.bar{
+	background-color: var(--text-color);
+	width: 80px;
+	height: 4px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
